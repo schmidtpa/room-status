@@ -1,0 +1,50 @@
+#RoomTable{
+  border:0px;
+  margin:20px auto; 
+  border-collapse:collapse;
+  width:100%;
+}
+
+.RoomHeader{
+  font-weight:bold;
+  text-align:center;
+  border-bottom:1px solid #59352B;
+}
+
+.RoomState {
+  width:1em;
+  height:1em;
+  margin:0.09em;
+}
+
+.RoomStateFree{
+  background-color:green; 
+}
+
+.RoomStateTaken{
+  background-color:darkred; 
+}
+
+.RoomLabel{
+ margin:20px auto; 
+}
+
+.RoomNavigation{
+ margin:0px auto; 
+ text-align:center;
+}
+
+.RoomNavigation a{
+ font-size:0.9em;
+}
+
+.RoomTitle{
+  margin:10px auto 0px; 
+  text-align:center;
+}
+
+.RoomTime{
+  margin:0px auto 20px; 
+  text-align:center;
+  font-weight:bold;
+}
